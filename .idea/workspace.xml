@@ -83,7 +83,7 @@
     <configuration name="Anagram" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Anagram" />
       <module name="COS 126" />
-      <option name="PROGRAM_PARAMETERS" value="cat act" />
+      <option name="PROGRAM_PARAMETERS" value="brainy binar" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">

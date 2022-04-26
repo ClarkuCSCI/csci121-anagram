@@ -10,7 +10,12 @@ public class Anagram {
         for (char c : twoS.toCharArray()) {
             twoHM.put(c, true);
         }
-        return oneHM.equals(twoHM);
+        if (oneHM.equals(twoHM)) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
     public static void main(String[] args) {
