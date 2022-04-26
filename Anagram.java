@@ -9,7 +9,9 @@ public class Anagram {
                 oneHM.put(c, 1);
             }
             else {
-                oneHM.put(c, 2);
+                int h = oneHM.get(c);
+                h++;
+                oneHM.put(c, h);
             }
         }
         for (char c : twoS.toCharArray()) {
@@ -17,7 +19,9 @@ public class Anagram {
                 twoHM.put(c, 1);
             }
             else {
-                twoHM.put(c, 2);
+                int h = twoHM.get(c);
+                h++;
+                twoHM.put(c, h);
             }
         }
         return oneHM.equals(twoHM);
