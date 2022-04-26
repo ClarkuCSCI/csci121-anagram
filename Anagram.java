@@ -7,9 +7,7 @@ public class Anagram {
         for (char c : oneS.toCharArray()) {
             oneHM.put(c, true);
         }
-        for (char c : twoS.toCharArray()) {
-            twoHM.put(c, true);
-        }
+
         return oneHM.equals(twoHM);
     }
 
