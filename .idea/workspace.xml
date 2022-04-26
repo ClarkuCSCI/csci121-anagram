@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="" />
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AnagramTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/AnagramTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +33,9 @@
   <component name="FindBugs-IDEA-Workspace">
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="106" />
@@ -74,16 +81,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.Anagram">
+  <component name="RunManager" selected="JUnit.AnagramTests">
     <configuration name="Anagram" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Anagram" />
       <module name="COS 126" />
       <option name="PROGRAM_PARAMETERS" value="cat act" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AnagramTests" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="AnagramTests" />
+      <module name="COS 126" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -101,6 +114,7 @@
     <list>
       <item itemvalue="Application.Anagram" />
       <item itemvalue="JUnit.AnagramTests" />
+      <item itemvalue="Application.AnagramTests" />
     </list>
     <recent_temporary>
       <list>
