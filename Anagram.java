@@ -2,15 +2,22 @@ import java.util.HashMap;
 
 public class Anagram {
     public static boolean anagram(String oneS, String twoS) {
+        boolean bool;
         HashMap<Character, Boolean> oneHM = new HashMap<Character, Boolean>();
         HashMap<Character, Boolean> twoHM = new HashMap<Character, Boolean>();
-        for (char c : oneS.toCharArray()) {
-            oneHM.put(c, true);
+        if (oneS.length() == twoS.length()) {
+            for (char c : oneS.toCharArray()) {
+                oneHM.put(c, true);
+            }
+            for (char c : twoS.toCharArray()) {
+                twoHM.put(c, true);
+            }
+            bool = true;
         }
-        for (char c : twoS.toCharArray()) {
-            twoHM.put(c, true);
+        else {
+            bool = false;
         }
-        return oneHM.equals(twoHM);
+        return bool;
     }
 
     public static void main(String[] args) {
