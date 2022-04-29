@@ -74,12 +74,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.Anagram">
+  <component name="RunManager" selected="JUnit.AnagramTests">
     <configuration name="Anagram" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Anagram" />
       <module name="COS 126" />
@@ -98,13 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AnagramTests.testAnagrams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="COS 126" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnagramTests" />
+      <option name="METHOD_NAME" value="testAnagrams" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Anagram" />
       <item itemvalue="JUnit.AnagramTests" />
+      <item itemvalue="JUnit.AnagramTests.testAnagrams" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AnagramTests" />
+        <item itemvalue="JUnit.AnagramTests.testAnagrams" />
       </list>
     </recent_temporary>
   </component>
