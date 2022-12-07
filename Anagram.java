@@ -1,16 +1,14 @@
-import java.util.HashMap;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Anagram {
     public static boolean anagram(String oneS, String twoS) {
-        HashMap<Character, Boolean> oneHM = new HashMap<Character, Boolean>();
-        HashMap<Character, Boolean> twoHM = new HashMap<Character, Boolean>();
-        for (char c : oneS.toCharArray()) {
-            oneHM.put(c, true);
-        }
-        for (char c : twoS.toCharArray()) {
-            twoHM.put(c, true);
-        }
-        return oneHM.equals(twoHM);
+        List<String> slista = Arrays.asList(oneS.split(""));
+        List<String> slistb = Arrays.asList(twoS.split(""));
+        List<String> sortedLista = slista.stream().sorted().collect(Collectors.toList());
+        List<String> sortedListb = slistb.stream().sorted().collect(Collectors.toList());
+        return sortedLista.equals(sortedListb);
     }
 
     public static void main(String[] args) {
