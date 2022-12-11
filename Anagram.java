@@ -5,10 +5,20 @@ public class Anagram {
         HashMap<Character, Boolean> oneHM = new HashMap<Character, Boolean>();
         HashMap<Character, Boolean> twoHM = new HashMap<Character, Boolean>();
         for (char c : oneS.toCharArray()) {
-            oneHM.put(c, true);
+           if (oneHM.containsKey(c)) {
+                oneHM.replace(c, oneHM.get(c) + 1);
+            }
+            else {
+                oneHM.put(c, 1);
+            }
         }
         for (char c : twoS.toCharArray()) {
-            twoHM.put(c, true);
+            if (twoHM.containsKey(c)) {
+                twoHM.replace(c, twoHM.get(c) + 1);
+            }
+            else {
+                twoHM.put(c, 1);
+            }
         }
         return oneHM.equals(twoHM);
     }
