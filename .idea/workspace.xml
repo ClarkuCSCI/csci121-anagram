@@ -69,21 +69,23 @@
     <option name="showModules" value="false" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="ToolWindowMessages.ShowToolbar" value="false" />
-    <property name="ToolWindowRun.ShowToolbar" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/ryan.bonja/Documents/GitHub/csci121-anagram"
+  }
+}]]></component>
   <component name="RunManager" selected="Application.Anagram">
     <configuration name="Anagram" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Anagram" />
       <module name="COS 126" />
-      <option name="PROGRAM_PARAMETERS" value="cat act" />
+      <option name="PROGRAM_PARAMETERS" value="banana ban" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AnagramTests" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="AnagramTests" />
+      <module name="COS 126" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -99,6 +101,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.AnagramTests" />
       <item itemvalue="Application.Anagram" />
       <item itemvalue="JUnit.AnagramTests" />
     </list>
