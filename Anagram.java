@@ -2,6 +2,7 @@ import java.util.HashMap;
 
 public class Anagram {
     public static boolean anagram(String oneS, String twoS) {
+        if (oneS.length() != twoS.length()) return false;
         HashMap<Character, Boolean> oneHM = new HashMap<Character, Boolean>();
         HashMap<Character, Boolean> twoHM = new HashMap<Character, Boolean>();
         for (char c : oneS.toCharArray()) {
