@@ -10,6 +10,9 @@ public class Anagram {
         for (char c : twoS.toCharArray()) {
             twoHM.put(c, true);
         }
+        if (oneS.length() != twoS.length()) {
+            return false;
+        }
         return oneHM.equals(twoHM);
     }
 
