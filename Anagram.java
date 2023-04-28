@@ -4,6 +4,11 @@ public class Anagram {
     public static boolean anagram(String oneS, String twoS) {
         HashMap<Character, Boolean> oneHM = new HashMap<Character, Boolean>();
         HashMap<Character, Boolean> twoHM = new HashMap<Character, Boolean>();
+        
+        if (oneS != twoS) {
+            return false;
+        }
+        
         for (char c : oneS.toCharArray()) {
             oneHM.put(c, true);
         }
