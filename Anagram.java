@@ -5,7 +5,7 @@ public class Anagram {
         HashMap<Character, Boolean> oneHM = new HashMap<Character, Boolean>();
         HashMap<Character, Boolean> twoHM = new HashMap<Character, Boolean>();
         
-        if (oneS.length != twoS.length) {
+        if (oneS.length() != twoS.length()) {
             return false;
         }
         
