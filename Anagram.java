@@ -5,10 +5,12 @@ public class Anagram {
         HashMap<Character, Integer> oneHM = new HashMap<Character, Integer>();
         HashMap<Character, Integer> twoHM = new HashMap<Character, Integer>();
         for (char c : oneS.toCharArray()) {
-            oneHM.put(c, oneHM.getOrDefault(c, 0) + 1);
+            if (Character.isAlphabetic(c))
+                oneHM.put(c, oneHM.getOrDefault(c, 0) + 1);
         }
         for (char c : twoS.toCharArray()) {
-            twoHM.put(c, twoHM.getOrDefault(c, 0) + 1);
+            if (Character.isAlphabetic(c))
+                twoHM.put(c, twoHM.getOrDefault(c, 0) + 1);
         }
         return oneHM.equals(twoHM);
     }
